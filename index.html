@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<meta charset="UTF-8" />
+<title>GTA 5 -  Crown City RP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.v3.css" rel="stylesheet">
+<meta name="verification" content="b8ecfabe8ac820a0a93b1b323efb29" />
+<script type="21833cd4605552c7be117641-text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/api.js?167",t.onload=function(){VK.Retargeting.Init("VK-RTRG-460567-bC0ne"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-460567-bC0ne" style="position:fixed; left:-999px;" alt=""/></noscript>
+</head>
+<body>
+<div class="modal-window successRegistration" id="successRegistration">
+<div class="modal-box no-bg">
+<p class="modal-box-header">Sie haben sich erfolgreich registriert<span>Wir warten auf Sie im Spiel!</span></p>
+<div class="modal-box-buttons">
+<a href="#" class="button-modal-box" onclick="if (!window.__cfRLUnblockHandlers) return false; yaCounter46328574.reachGoal('registr')" data-cf-modified-21833cd4605552c7be117641-="">Понятно</a>
+</div>
+</div>
+</div>
+<div class="modal-window successDonate" id="successDonate">
+<div class="modal-box no-bg">
+<p class="modal-box-header">Sie haben Ihren Kontostand erfolgreich aufgeladen<span>Wir warten auf Sie im Spiel!</span><span class="modal-small-header">Klicken Sie auf "Aufladung prüfen", falls Sie sich im Spiel befinden.</span></p>
+<div class="modal-box-buttons">
+<a href="#" class="button-modal-box">Verstanden</a>
+</div>
+</div>
+</div>
+<div class="modal-window question" id="question">
+<div class="modal-box">
+<a href="#" class="modal-box-close" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#question').attr('style','')" data-cf-modified-21833cd4605552c7be117641-=""></a>
+<p class="modal-box-header">Bestätigen Sie<br>die Aktion<span>Haben Sie eine lizenziertere GTA V?</span></p>
+<div class="modal-box-buttons">
+<a href="#registration" class="button-modal-box small">Ja</a>
+<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" class="button-modal-box small red" target="_blank">Nein</a>
+</div>
+</div>
+</div>
+<div class="modal-window register" id="registration">
+<div class="modal-box">
+<a href="#" class="modal-box-close"></a>
+<p class="modal-box-header">Registrierung<span>des Spielskontos</span></p>
+<form method="post" id="registrationForm">
+<div class="modal-box-content">
+<div class="modal-box-input">
+<div class="modal-box-change-server">
+<p>Server auswählen</p>
+<div>
+<input class="radio-server" name="server" type="radio" value="one_reg" id="one_reg">
+<label for="one_reg"><img src="images/svg/one1.svg"></label>
+<input class="radio-server" name="server" type="radio" value="two_reg" id="two_reg">
+<label for="two_reg"><img src="images/svg/two1.svg"></label>
+</div>
+</div>
+</div>
+<input type="text" class="modal-box-input" placeholder="Spielername" name="firstname" required>
+<input type="text" class="modal-box-input" placeholder="Spielnachname" name="lastname" required>
+<input type="email" class="modal-box-input" placeholder="Ihre E-Mail" name="email" required>
+<input type="text" class="modal-box-input" placeholder="Passwort" name="password" required>
+<input type="text" class="modal-box-input" placeholder="Passwort wiederholen" name="repeatpassword" required>
+<label for="username" name="captcha" required></label>
+<div align="center" class="g-recaptcha" data-sitekey="6LfBvXsUAAAAABa04Ujo44mKaG8GAIK-OrczE_Xj"></div>
+</div>
+<div class="modal-box-buttons">
+<button class="button-modal-box" type="submit">Registrieren</button>
+</div>
+</form>
+</div>
+</div>
+<div class="modal-window donate" id="donate">
+<div class="modal-box">
+<a href="#" class="modal-box-close"></a>
+<form method="post" id="donateForm">
+<p class="modal-box-header">Aufladung<span>des Spielskontos</span></p>
+<div class="modal-box-content">
+<div class="modal-box-input">
+<div class="modal-box-change-server">
+<p>Server auswählen</p>
+<div>
+<input class="radio-server" name="server" type="radio" value="one_donate" id="one_donate">
+<label for="one_donate"><img src="images/svg/one1.svg"></label>
+<input class="radio-server" name="server" type="radio" value="two_donate" id="two_donate">
+<label for="two_donate"><img src="images/svg/two1.svg"></label>
+</div>
+</div>
+</div>
+<input type="text" class="modal-box-input" placeholder="Номер аккаунта" name="donate_id" required>
+<input type="text" class="modal-box-input" placeholder="Сумма" name="donate_value" required>
+</div>
+<div class="modal-box-buttons">
+<button class="button-modal-box" type="submit">Aufladen</button>
+</div>
+</form>
+</div>
+</div>
+<header>
+<div class="topline">
+<div class="container">
+<div class="topline-wrap">
+<a href="#" class="logo-wrap">
+<div class="logo">
+<img src="images/logo.png" alt="">
+</div>
+<p class="desc">Projekt Server<br>GTA 5 <span>multiplayer</span></p>
+</a>
+<ul class="header-menu">
+<li class="active"><a href="index.html">Startseite</a></li>
+<li><a href="#staps">Wie startet man das Spiel</a></li>
+<li><a href="#donate"><i class="donate"></i>Shop</a></li>
+<li><a href="https://forum.soon" target="_blank">Forum</a></li>
+<li><a href="https://vk.com/soon" target="_blank">Unterstützung</a></li>
+<li><a href="https://www.youtube.com/channel/soon" target="_blank"><i class="youtube"></i>Youtube</a></li>
+</ul>
+</div>
+</div>
+</div>
+<i class="girl-header"></i>
+<div class="container">
+<div class="info-server">
+<p>Crown City - RolePlay</p>
+<p class="small">Crown Citykennt keine Grenzen und gibt dir die volle Kontrolle über dein Leben. Die einzige Grenze ist deine Fantasie!</p>
+<div class="quality-server">
+<div>12 <span>Franktionen<br>in LS</span></div>
+<div>99+ <span>Beschäftigungs<br>und Karriereoptionen</span></div>
+<div>100% <span>Entwicklung<br>ohne Donat</span></div>
+</div>
+<div class="buttons-info-server">
+<a href="#question" class="main-button">Registrieren<span>Wird nicht länger als 5 Minuten dauern</span></a>
+<a href="https://www.youtube.com/watch?v=T0vJp_fRg6M" class="main-button youtube" target="_blank"><div>Über uns<span>In 2 Minuten</span></div></a>
+</div>
+</div>
+</div>
+</header>
+<main>
+<div class="game-servers">
+<div class="container small">
+<div class="header-text">
+<p>RolePlay <span class="big">Server</span></p>
+<p class="online">0/100 <span>Leute<br>Online</span></p>
+</div>
+<div class="server one">
+<p>Erster<br>Server</p>
+<a class="main-button copy" data-clipboard-text="rage.grand-rp.su:22005" onclick="if (!window.__cfRLUnblockHandlers) return false; yaCounter46328574.reachGoal('copygta5')" data-cf-modified-21833cd4605552c7be117641-="">IP kopieren</a>
+<div class="online">online <span>0</span></div>
+</div>
+<div class="server two">
+<p>2/3/4<br>Server</p>
+<a class="main-button copy" data-clipboard-text="rage2.grand-rp.su:22005" onclick="if (!window.__cfRLUnblockHandlers) return false; yaCounter46328574.reachGoal('copygta5')" data-cf-modified-21833cd4605552c7be117641-="">IP kopieren</a>
+<div class="online">online <span>0</span></div>
+</div>
+</div>
+</div>
+<div class="how-start-game">
+<div class="container small staps" id="staps">
+<p class="title">Wie starte ich das Spiel<span>???????</span></p>
+<div class="guide-staps">
+<div class="stap-1">
+<i class="lines-stap-1"></i>
+<span>Schritt 1</span>
+<p class="title-stap">Lizenzierte<br>Version kaufen<br>GTA V</p>
+<p class="description-stap">„Wenn das Spiel bereits gekauft wurde, zum nächsten Schritt.</p>
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; yaCounter46328574.reachGoal('buysteam')" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" class="main-button guide steam" target="_blank" data-cf-modified-21833cd4605552c7be117641-=""> Kaufe bei Steam</a>
+</div>
+<div class="stap-2">
+<i class="lines-stap-2"></i>
+<span>Schritt 2</span>
+<p class="title-stap">Five M<br>insatllieren<br></p>
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; yaCounter46328574.reachGoal('launchergta5')" href="https://fivem.net" class="main-button guide ragemp" data-cf-modified-21833cd4605552c7be117641-="">Five M installieren</a>
+</div>
+<div class="stap-3">
+<span>Schritt 3</span>
+<p class="title-stap">Crown City<br>Laucher<br>Instalieren</p>
+<a href="#question" class="main-button guide grp">Crown City Launcher</a>
+</div>
+<div class="stap-4">
+<i class="lines-stap-4"></i>
+<p class="title-stap">Connecte auf den<br>Server</p>
+<p class="description-stap">in der Serverliste oder verbinde dich über “Direct Connecten”, neben dem ip-Adress des Servers oder einacher den Launcher benutzen.</p>
+<span>Schritt 4</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="container small">
+<div class="social-links">
+ <a href="https://vk.com/grandrpgta5" class="link public" target="_blank">
+<p>Tik Tok<br>Kanal</p>
+<div class="side-box">
+<ul class="people">
+<li class="active"></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<div class="count">1</div>
+</div>
+</a>
+<a href="https://www.youtube.com/" class="link youtube" target="_blank">
+<p>Youtube<br>Kanal</p>
+<div class="side-box">
+<ul class="people">
+<li class="active"></li>
+<li class="active"></li>
+<li class="active"></li>
+<li class="active"></li>
+<li></li>
+<li></li>
+</ul>
+<div class="count">2</div>
+</div>
+</a>
+<a href="https://vk.com/" class="link public" target="_blank">
+<p>Freier<br>Chat</p>
+<div class="side-box">
+<ul class="people">
+<li class="active"></li>
+<li class="active"></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<div class="count">3</div>
+</div>
+</a>
+<a href="https://discord.com/" target="_blank" class="link discord">
+<p>Discord<br>Server</p>
+<div class="side-box">
+<ul class="people">
+<li class="active"></li>
+<li class="active"></li>
+<li class="active"></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<div class="count">4</div>
+</div>
+</a>
+</div>
+<div class="copyright">
+<div class="logo-wrap">
+<div class="logo">
+<img src="images/logo.png" alt="">
+</div>
+<p class="desc">Server-Projekt<br>GTA 5 <span>multiplayer</span></p>
+</div>
+<p class="protection">© Alle Rechte vorbehalten.
+Das Kopieren der Inhalte ist untersagt.</p>
+</div>
+</div>
+ <a href="https://metrika.yandex.ru/stat/?id=46328574&amp;from=informer" target="_blank" rel="nofollow" style="display: none"><img src="https://metrika-informer.com/informer/46328574/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="46328574" data-lang="ru" /></a>   <script type="21833cd4605552c7be117641-text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(46328574, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); </script> 
+</footer>
+<script src="js/jquery.min.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script src="js/jquery.form.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script src="js/clipboard.min.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script src="js/script.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script type="21833cd4605552c7be117641-text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+<script src="js/push.js" type="21833cd4605552c7be117641-text/javascript"></script>
+<script type="21833cd4605552c7be117641-text/javascript">
+  $('#registrationForm').ajaxForm({
+    url: '/registrationPost',
+    dataType: 'text',
+    success: function(data) {
+      data = $.parseJSON(data);
+      switch(data.status) {
+        case 'error':
+          swal("Ошибка" ,  data.message ,  "error");
+          grecaptcha.reset();
+          break;
+        case 'success':
+          location.href = '/#successRegistration';
+          break;
+      }
+    },
+  });
+  $('#donateForm').ajaxForm({
+    url: '/donatePost',
+    dataType: 'text',
+    success: function(data) {
+      data = $.parseJSON(data);
+      switch(data.status) {
+        case 'error':
+          swal("Ошибка" ,  data.message ,  "error");
+          break;
+        case 'success':
+          location.href = data.redirect;
+          break;
+      }
+    },
+  });
+  
+  </script>
+<script type="21833cd4605552c7be117641-text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="21833cd4605552c7be117641-|49" defer=""></script></body>
+</html>
